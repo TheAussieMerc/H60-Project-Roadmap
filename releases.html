@@ -14,26 +14,29 @@
     <div class="page-designation">Sikorsky H60 Project // Workshop Releases</div>
     <div class="page-title">Releases <span>&amp; Versioning</span></div>
     <div class="page-meta">
-      <div class="badge badge-green"><div class="status-dot"></div>Live on Workshop</div>
+      <div class="badge badge-green"><div class="status-dot"></div>v0.6.51 Live</div><div class="badge badge-dim">3 Known Bugs</div>
       <span class="progress-summary">1/4 tasks &nbsp;|&nbsp; <span>25%</span> complete</span>
     </div>
   </div>
   <div class="content">
     <div class="notes-block">
       <div class="notes-label">// Dev Notes</div>
-      <div class="notes-text">v0.x is live on the Arma Reforger workshop now. v1.0 targets core systems completion. v2.0 brings weapons, camera, and full FX. v3.0 is the full variants and liveries milestone.</div>
+      <div class="notes-text">v0.6.51 is live on the Arma Reforger workshop. Suspension IK and rotor rebuild are currently in testing builds. Three known bugs are being tracked below.</div>
     </div>
     <div class="task-grid">
   <div class="task-section full">
     <div class="section-head">
-      <div class="section-head-title">v0.x — Live Now on Workshop</div>
+      <div class="section-head-title">v0.6.51 — Live Now on Workshop</div>
       <div class="section-head-count">Current</div>
     </div>
     <div class="task-list">
       <div class="task"><div class="task-status done">✓</div><div class="task-info"><div class="task-name done-text">Core flight framework</div><div class="task-note">AUS_CORE integration</div></div><div class="task-tag tag-done">DONE</div></div>
       <div class="task"><div class="task-status done">✓</div><div class="task-info"><div class="task-name done-text">Base exterior lighting</div><div class="task-note">Nav, strobe, IR</div></div><div class="task-tag tag-done">DONE</div></div>
       <div class="task"><div class="task-status done">✓</div><div class="task-info"><div class="task-name done-text">Initial audio pass</div><div class="task-note">Placeholder audio</div></div><div class="task-tag tag-done">DONE</div></div>
-      <div class="task"><div class="task-status active">▶</div><div class="task-info"><div class="task-name active-text">Rotor rework ongoing</div><div class="task-note">Main rotor model &amp; system improvements in progress</div></div><div class="task-tag tag-wip">WIP</div></div>
+      <div class="task"><div class="task-status done">✓</div><div class="task-info"><div class="task-name done-text">Glass material fix</div><div class="task-note">Tweaked glass material to prevent white out for pilots</div></div><div class="task-tag tag-done">DONE</div></div>
+      <div class="task"><div class="task-status done">✓</div><div class="task-info"><div class="task-name done-text">Light toggle fix — medical variant</div><div class="task-note">Fixed missing light toggles for pilot and copilot on medical variant</div></div><div class="task-tag tag-done">DONE</div></div>
+      <div class="task"><div class="task-status active">▶</div><div class="task-info"><div class="task-name active-text">Suspension IK animation system</div><div class="task-note">Full IK suspension — currently in testing build</div></div><div class="task-tag tag-wip">WIP</div></div>
+      <div class="task"><div class="task-status active">▶</div><div class="task-info"><div class="task-name active-text">Main rotor rebuild — ground up</div><div class="task-note">New rotor, rotor blur, destroyed model — currently in testing build</div></div><div class="task-tag tag-wip">WIP</div></div>
       <div class="task"><div class="task-status active">▶</div><div class="task-info"><div class="task-name active-text">Weapon system scaffolding</div><div class="task-note">Base weapon framework in progress</div></div><div class="task-tag tag-wip">WIP</div></div>
     </div>
   </div>
@@ -45,6 +48,7 @@
     <div class="task-list">
       <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">Completed rotor model &amp; physics</div></div><div class="task-tag tag-next">NEXT</div></div>
       <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">Dynamic rotor wash system</div></div><div class="task-tag tag-next">NEXT</div></div>
+      <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">Suspension IK complete &amp; tuned</div></div><div class="task-tag tag-next">NEXT</div></div>
       <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">MFCD base framework</div></div><div class="task-tag tag-next">NEXT</div></div>
       <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">Interactive cockpit switches</div></div><div class="task-tag tag-next">NEXT</div></div>
       <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">RPM-reactive audio</div></div><div class="task-tag tag-next">NEXT</div></div>
@@ -77,6 +81,38 @@
       <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">Cold War analogue cockpit</div></div><div class="task-tag tag-later">LATER</div></div>
       <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">In-game variant selector</div></div><div class="task-tag tag-later">LATER</div></div>
       <div class="task"><div class="task-status todo"></div><div class="task-info"><div class="task-name">NVG &amp; IR camera modes</div></div><div class="task-tag tag-later">LATER</div></div>
+    </div>
+  </div>
+  <div class="task-section full">
+    <div class="section-head" style="border-left: 3px solid var(--red);">
+      <div class="section-head-title" style="color:#e05252;">🐛 Known Bugs</div>
+      <div class="section-head-count">3 open</div>
+    </div>
+    <div class="task-list">
+      <div class="task">
+        <div class="task-status blocked">✕</div>
+        <div class="task-info">
+          <div class="task-name" style="color:#e09292;">Suspension — right wheel hover</div>
+          <div class="task-note">Right wheel appears to hover slightly above ground // Category: Suspension &amp; Animation</div>
+        </div>
+        <div class="task-tag" style="background:rgba(224,82,82,0.08);color:#e05252;border:1px solid rgba(224,82,82,0.2);">BUG</div>
+      </div>
+      <div class="task">
+        <div class="task-status blocked">✕</div>
+        <div class="task-info">
+          <div class="task-name" style="color:#e09292;">World fall-through on crash landing</div>
+          <div class="task-note">Helicopter sometimes falls through world geometry on hard crash landing // Cause unknown — under investigation</div>
+        </div>
+        <div class="task-tag" style="background:rgba(224,82,82,0.08);color:#e05252;border:1px solid rgba(224,82,82,0.2);">BUG</div>
+      </div>
+      <div class="task">
+        <div class="task-status blocked">✕</div>
+        <div class="task-info">
+          <div class="task-name" style="color:#e09292;">Internal movement colliders</div>
+          <div class="task-note">Colliders prevent crew moving internally on non-transport seat builds // Category: Suspension &amp; Animation</div>
+        </div>
+        <div class="task-tag" style="background:rgba(224,82,82,0.08);color:#e05252;border:1px solid rgba(224,82,82,0.2);">BUG</div>
+      </div>
     </div>
   </div>
 </div>

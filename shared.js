@@ -7,7 +7,8 @@ const SITE = {
 };
 
 const CATEGORIES = [
-  { id: 'flight-model',      label: 'Flight Model & Physics',    icon: '⚙️',  file: 'flight-model.html',      done: 2, total: 7  },
+  { id: 'flight-model',      label: 'Flight Model & Physics',    icon: '⚙️',  file: 'flight-model.html',      done: 2, total: 8  },
+  { id: 'suspension',        label: 'Suspension & Animation',    icon: '🦿',  file: 'suspension.html',         done: 0, total: 4  },
   { id: 'cockpit',           label: 'Cockpit / MFCD Systems',    icon: '🖥️', file: 'cockpit.html',            done: 1, total: 8  },
   { id: 'visual-fx',         label: 'Visual & Particle Effects', icon: '✨',  file: 'visual-fx.html',          done: 1, total: 5  },
   { id: 'audio',             label: 'Audio',                     icon: '🔊',  file: 'audio.html',              done: 1, total: 5  },
