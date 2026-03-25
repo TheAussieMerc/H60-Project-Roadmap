@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audio — Sikorsky H60 Project</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+<div id="sidebar-mount"></div>
+<div class="page-wrap">
+  <div class="page-header">
+    <div class="page-designation">Sikorsky H60 Project // Audio Systems</div>
+    <div class="page-title"><span>Audio</span></div>
+    <div class="page-meta">
+      <div class="badge badge-dim">Phase 05</div>
+      <span class="progress-summary">1/5 tasks &nbsp;|&nbsp; <span>20%</span> complete</span>
+    </div>
+  </div>
+  <div class="content">
+    <div class="notes-block">
+      <div class="notes-label">// Dev Notes</div>
+      <div class="notes-text">Base audio is a placeholder pass. Full audio rework is scoped for Phase 05 — RPM-reactive systems will tie directly into the rotor RPM script data already implemented. Interior/exterior states and warning tones depend on MFCD alert system completion.</div>
+    </div>
+    <div class="task-grid"><div class="task-section">
+      <div class="section-head">
+        <div class="section-head-title">Engine &amp; Rotor Audio</div>
+        <div class="section-head-count">3 tasks</div>
+      </div>
+      <div class="task-list"><div class="task">
+        <div class="task-status done">✓</div>
+        <div class="task-info">
+          <div class="task-name done-text">Base rotor &amp; engine audio</div>
+          <div class="task-note">Placeholder / initial audio pass</div>
+        </div>
+        <div class="task-tag tag-done">DONE</div>
+      </div>
+<div class="task">
+        <div class="task-status todo"></div>
+        <div class="task-info">
+          <div class="task-name ">RPM-reactive audio system</div>
+          <div class="task-note">Rotor pitch tied to actual RPM values</div>
+        </div>
+        <div class="task-tag tag-next">NEXT</div>
+      </div>
+<div class="task">
+        <div class="task-status todo"></div>
+        <div class="task-info">
+          <div class="task-name ">Realistic startup audio sequence</div>
+          <div class="task-note">APU → engine spool → rotor engagement</div>
+        </div>
+        <div class="task-tag tag-next">NEXT</div>
+      </div></div>
+    </div><div class="task-section">
+      <div class="section-head">
+        <div class="section-head-title">Environmental &amp; Alerts</div>
+        <div class="section-head-count">2 tasks</div>
+      </div>
+      <div class="task-list"><div class="task">
+        <div class="task-status todo"></div>
+        <div class="task-info">
+          <div class="task-name ">Interior vs exterior audio states</div>
+          <div class="task-note">Muffled interior, full exterior soundscape</div>
+        </div>
+        <div class="task-tag tag-next">NEXT</div>
+      </div>
+<div class="task">
+        <div class="task-status todo"></div>
+        <div class="task-info">
+          <div class="task-name ">Warning tone integration</div>
+          <div class="task-note">Caution/warning audio linked to MFCD alerts</div>
+        </div>
+        <div class="task-tag tag-next">NEXT</div>
+      </div></div>
+    </div></div>
+    <div class="legend">
+      <span class="legend-label">Key //</span>
+      <div class="legend-item"><div class="legend-dot ld-done"></div>Complete</div>
+      <div class="legend-item"><div class="legend-dot ld-active"></div>In Progress</div>
+      <div class="legend-item"><div class="legend-dot ld-todo"></div>Next Up</div>
+      <div class="legend-item"><div class="legend-dot ld-later"></div>Later Phase</div>
+    </div>
+  </div>
+</div>
+<div id="timeline-mount"></div>
+<script src="shared.js"></script>
+<script>initPage('audio');</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flight Model & Physics — Sikorsky H60 Project</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+<div id="sidebar-mount"></div>
+<div class="page-wrap">
+  <div class="page-header">
+    <div class="page-designation">Sikorsky H60 Project // Core Systems</div>
+    <div class="page-title">Flight Model <span>&amp; Physics</span></div>
+    <div class="page-meta">
+      <div class="badge badge-green"><div class="status-dot"></div>In Progress</div><div class="badge badge-dim">Phase 02 — Current</div>
+      <span class="progress-summary">2/7 tasks &nbsp;|&nbsp; <span>29%</span> complete</span>
+    </div>
+  </div>
+  <div class="content">
+    <div class="notes-block">
+      <div class="notes-label">// Dev Notes</div>
+      <div class="notes-text">Rotor model rework and system improvements are the current active priority — a full ground-up rebuild of the main rotor is in testing, including new rotor blur and a destroyed main rotor model. Dynamic rotor wash is next in queue — requires airspeed, collective position, and altitude inputs for realistic ground effect behaviour.</div>
+    </div>
+    <div class="task-grid"><div class="task-section">
+      <div class="section-head">
+        <div class="section-head-title">Rotor Systems</div>
+        <div class="section-head-count">5 tasks</div>
+      </div>
+      <div class="task-list"><div class="task">
+        <div class="task-status done">✓</div>
+        <div class="task-info">
+          <div class="task-name done-text">Base helicopter flight framework</div>
+          <div class="task-note">AUS_CORE vehicle integration complete</div>
+        </div>
+        <div class="task-tag tag-done">DONE</div>
+      </div>
+<div class="task">
+        <div class="task-status done">✓</div>
+        <div class="task-info">
+          <div class="task-name done-text">Rotor RPM calculation system</div>
+          <div class="task-note">Base RPM reading &amp; script integration</div>
+        </div>
+        <div class="task-tag tag-done">DONE</div>
+      </div>
+<div class="task">
+        <div class="task-status active">▶</div>
+        <div class="task-info">
+          <div class="task-name active-text">Main rotor rebuild — ground up</div>
+          <div class="task-note">New rotor from scratch, rotor blur, destroyed rotor model — in testing</div>
+        </div>
+        <div class="task-tag tag-wip">WIP</div>
+      </div>
+<div class="task">
+        <div class="task-status active">▶</div>
+        <div class="task-info">
+          <div class="task-name active-text">Rotor system improvements</div>
+          <div class="task-note">Blade behaviour, collective response tuning</div>
+        </div>
+        <div class="task-tag tag-wip">WIP</div>
+      </div>
+<div class="task">
+        <div class="task-status todo"></div>
+        <div class="task-info">
+          <div class="task-name ">Tail rotor model &amp; animation</div>
+          <div class="task-note">Tail rotor geometry and spin animation</div>
+        </div>
+        <div class="task-tag tag-next">NEXT</div>
+      </div></div>
+    </div><div class="task-section">
+      <div class="section-head">
+        <div class="section-head-title">Rotor Wash</div>
+        <div class="section-head-count">3 tasks</div>
+      </div>
+      <div class="task-list"><div class="task">
+        <div class="task-status todo"></div>
+        <div class="task-info">
+          <div class="task-name ">Dynamic rotor wash system</div>
+          <div class="task-note">Airspeed + collective + altitude-based particles</div>
+        </div>
+        <div class="task-tag tag-next">NEXT</div>
+      </div>
+<div class="task">
+        <div class="task-status todo"></div>
+        <div class="task-info">
+          <div class="task-name ">Collective-dependent wash intensity</div>
+          <div class="task-note">Reduce wash when collective is low on ground</div>
+        </div>
+        <div class="task-tag tag-next">NEXT</div>
+      </div>
+<div class="task">
+        <div class="task-status todo"></div>
+        <div class="task-info">
+          <div class="task-name ">Approach velocity wash direction</div>
+          <div class="task-note">Velocity vector → particle momentum influence</div>
+        </div>
+        <div class="task-tag tag-next">NEXT</div>
+      </div></div>
+    </div></div>
+    <div class="legend">
+      <span class="legend-label">Key //</span>
+      <div class="legend-item"><div class="legend-dot ld-done"></div>Complete</div>
+      <div class="legend-item"><div class="legend-dot ld-active"></div>In Progress</div>
+      <div class="legend-item"><div class="legend-dot ld-todo"></div>Next Up</div>
+      <div class="legend-item"><div class="legend-dot ld-later"></div>Later Phase</div>
+    </div>
+  </div>
+</div>
+<div id="timeline-mount"></div>
+<script src="shared.js"></script>
+<script>initPage('flight-model');</script>
+</body>
+</html>
