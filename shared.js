@@ -7,18 +7,18 @@ const SITE = {
 };
 
 const CATEGORIES = [
-  { id: 'flight-model',      label: 'Flight Model & Physics',    icon: '⚙️',  file: 'flight-model.html',      done: 4, total: 8  },
+  { id: 'flight-model',      label: 'Flight Model & Physics',    icon: '⚙️',  file: 'flight-model.html',      done: 5, total: 8  },
   { id: 'suspension',        label: 'Suspension & Animation',    icon: '🦿',  file: 'suspension.html',         done: 3, total: 4  },
   { id: 'cockpit',           label: 'Cockpit / MFCD Systems',    icon: '🖥️', file: 'cockpit.html',            done: 1, total: 8  },
   { id: 'visual-fx',         label: 'Visual & Particle Effects', icon: '✨',  file: 'visual-fx.html',          done: 2, total: 5  },
   { id: 'audio',             label: 'Audio',                     icon: '🔊',  file: 'audio.html',              done: 1, total: 5  },
-  { id: 'weapon-platforms',  label: 'Weapon Platforms',          icon: '🎯',  file: 'weapon-platforms.html',   done: 0, total: 6  },
+  { id: 'weapon-platforms',  label: 'Weapon Platforms',          icon: '🎯',  file: 'weapon-platforms.html',   done: 0, total: 10 },
   { id: 'crew-weapons',      label: 'Crew Weapons',              icon: '🔫',  file: 'crew-weapons.html',       done: 0, total: 5  },
   { id: 'camera',            label: 'Camera System',             icon: '📷',  file: 'camera.html',             done: 0, total: 4  },
   { id: 'fuselage',          label: 'Fuselage & Model Upgrades', icon: '🔧',  file: 'fuselage.html',           done: 0, total: 5  },
   { id: 'variants',          label: 'Airframe Variants',         icon: '🚁',  file: 'variants.html',           done: 0, total: 10 },
   { id: 'liveries',          label: 'Liveries',                  icon: '🎨',  file: 'liveries.html',           done: 0, total: 5  },
-  { id: 'releases',          label: 'Releases & Versioning',     icon: '🚀',  file: 'releases.html',           done: 1, total: 4  },
+  { id: 'releases',          label: 'Releases & Versioning',     icon: '🚀',  file: 'releases.html',           done: 2, total: 4  },
 ];
 
 // ── SIDEBAR ────────────────────────────────────────────────────────────────
