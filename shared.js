@@ -7,10 +7,10 @@ const SITE = {
 };
 
 const CATEGORIES = [
-  { id: 'flight-model',      label: 'Flight Model & Physics',    icon: '⚙️',  file: 'flight-model.html',      done: 2, total: 8  },
-  { id: 'suspension',        label: 'Suspension & Animation',    icon: '🦿',  file: 'suspension.html',         done: 0, total: 4  },
+  { id: 'flight-model',      label: 'Flight Model & Physics',    icon: '⚙️',  file: 'flight-model.html',      done: 4, total: 8  },
+  { id: 'suspension',        label: 'Suspension & Animation',    icon: '🦿',  file: 'suspension.html',         done: 3, total: 4  },
   { id: 'cockpit',           label: 'Cockpit / MFCD Systems',    icon: '🖥️', file: 'cockpit.html',            done: 1, total: 8  },
-  { id: 'visual-fx',         label: 'Visual & Particle Effects', icon: '✨',  file: 'visual-fx.html',          done: 1, total: 5  },
+  { id: 'visual-fx',         label: 'Visual & Particle Effects', icon: '✨',  file: 'visual-fx.html',          done: 2, total: 5  },
   { id: 'audio',             label: 'Audio',                     icon: '🔊',  file: 'audio.html',              done: 1, total: 5  },
   { id: 'weapon-platforms',  label: 'Weapon Platforms',          icon: '🎯',  file: 'weapon-platforms.html',   done: 0, total: 6  },
   { id: 'crew-weapons',      label: 'Crew Weapons',              icon: '🔫',  file: 'crew-weapons.html',       done: 0, total: 5  },
